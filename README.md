@@ -36,7 +36,7 @@ And now run directly by using the python command
 python hello_flask.py  
 
 You can add more routes
-'''python
+'''
 @app.route("/about")
 def about():
     return "<h1>About Page</h1>"
@@ -45,7 +45,7 @@ def about():
 So when you search http://localhost:5000/about you will get ‘About page’ printed
 You can add more html functionality but it makes the code ugly if you add html code for each route. 
 Code: 
-'''python
+'''
 def about():
     return ```<!doctype html>
 	<html>
